@@ -26,8 +26,6 @@
   background-color: var(--color-white);
   color: var(--color-black);
   font-family: "Roboto", sans-serif;
-  width: 1600px;
-  height: 2346px;
 }
 
 li {
@@ -40,22 +38,29 @@ a {
 }
 
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .page-header .site-nav {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.site-nav.current {
+  color: var(--color-blue);
 }
 
 .auth-nav {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .auth-nav:hover,
@@ -104,7 +109,8 @@ a[href="tel:+380961111111"] {
   text-transform: uppercase;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
 }
 
 .button {
@@ -116,19 +122,37 @@ a[href="tel:+380961111111"] {
   cursor: pointer;
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
 }
 
-.list-of-features h3 {
+.h-three-in-pageone {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
 }
 
 .what-we-do {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+
+.our-team {
+  background-color: var(--color-lightgray);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .filter {
@@ -139,7 +163,8 @@ a[href="tel:+380961111111"] {
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
 }
 
 .filter:hover,
@@ -148,10 +173,11 @@ a[href="tel:+380961111111"] {
   background-color: var(--color-blue);
 }
 
-.portfolio h2 {
+.h-two-in-pagetwo {
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .container-in-pagetwo {
@@ -159,18 +185,17 @@ a[href="tel:+380961111111"] {
   border: 1px solid #eeeeee;
 }
 
-.our-team {
-  background-color: var(--color-lightgray);
-}
-
-.our-team h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
-}
-
 .paragraph {
   color: var(--color-gray);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.paragraph-in-pagetwo {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }
 
 .team-card {
@@ -193,6 +218,14 @@ a[href="tel:+380961111111"] {
 
 .address {
   font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.address:focus,
+.address:hover {
+  color: var(--color-blue);
 }
 
 .page-footer .link {
